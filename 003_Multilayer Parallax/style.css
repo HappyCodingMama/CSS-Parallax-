@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;900&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans JP', sans-serif;
+      user-select: none;
+}
+body{
+      width: 100%;
+      min-height: 100vh;
+      background: #181818;
+      overflow-x: hidden;
+}
+.text{
+      width: 100%;
+      padding: 100px;
+      color: whitesmoke;
+      text-align: center;
+}
+.text h2,
+section h2{
+      color:whitesmoke;
+      font-size: 7em;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      line-height: 90%;
+      margin-bottom: 20px;
+}
+.text p{
+      text-transform: uppercase;
+}
+.thumb{
+      width: 100%;
+      min-height: 100vh;
+      margin-bottom: 100px;
+      position: relative;
+}
+.bg{
+      width: 100%;
+      min-height: 250px;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      transition: top 1.5s ease-in-out;
+}
+.sub-text{
+      position: absolute;
+      top:300px;
+      left: 50px;
+      font-size:500px;
+      color: rgb(46, 44, 44);
+      text-align: center;
+      line-height:90%; 
+      font-weight:100;
+
+}
+.curtain{
+      position: absolute;
+      top:440px;
+      left: 700px;
+      width: 500px;
+      height: 120px;
+      background-color: #181818;
+      z-index: 1;
+}
+.bg1{
+      z-index: 2;
+      background: url('./img/001.png') no-repeat center;
+}
+.bg2{
+      background: url('./img/002.png') no-repeat center;
+}
+
+.bg3{
+ 
+      background: url('./img/003.png') no-repeat center;
+}
+
+.bg4{
+
+      background: url('./img/004.png') no-repeat center;
+}
+
+.bg5{
+
+      background: url('./img/005.png') no-repeat center;
+}
+
+.bg6{
+ 
+      background: url('./img/006.png') no-repeat center;
+}
+
+.bg7{
+
+      background: url('./img/007.png') no-repeat center;
+}
+
+.bg8{
+    
+      background: url('./img/008.png') no-repeat center;
+}
+section{
+      min-height: 100vh;
+}
