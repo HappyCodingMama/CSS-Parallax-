@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;900&display=swap');
+
+body{
+      background-color: #222;
+      height: 1500px;
+      font-family: 'Noto Sans JP', sans-serif;
+}
+.display-1, .lead{
+      color: white;
+      text-transform: uppercase;
+}
+
+.intro .product-wrapper{
+      position: relative;
+      display: inline-block;
+}
+
+.intro .product-wrapper img{
+      width: 300px;
+}
+
+.intro .product-wrapper .scroll-stable{
+      position: relative;
+      z-index: 99;
+      width: 350px;
+}
+
+.intro .scroll-move{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -150px;
+}
+
+#desc p{
+margin: 0 auto;
+fo
+}
