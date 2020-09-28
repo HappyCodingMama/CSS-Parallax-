@@ -1,6 +1,5 @@
 # CSS Parallax
 
-<<<<<<< HEAD
 inspired by 
 001. https://www.youtube.com/watch?v=jvbL-VqACyM&t=1s
 002. https://www.youtube.com/watch?v=dqzZ0SbSgHY
