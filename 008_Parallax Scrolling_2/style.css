@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap');
+
+*{
+      margin:0;
+      padding: 0;
+}
+body{
+      font-size: 13px;
+      font-family: 'Epilogue', sans-serif;
+}
+p{
+      line-height: 1.6;
+}
+
+strong{
+      font-weight: bold;
+}
+section:nth-of-type(1){
+      height:1200px;
+}
+section:nth-of-type(2){
+      height:1200px;
+}
+
+#story-freext>div:nth-of-type(1){
+      background: url(img/img_1.jpg) 50% 0 no-repeat fixed;
+      margin: 0;
+      height: 1600px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+}
+
+#story-freext>div:nth-of-type(2){
+      background: url(img/phone.png) 50% 0 no-repeat fixed;
+      margin: 0;
+      height: 1600px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 100px;
+}
+
+#bottle>div:nth-of-type(1){
+      background: url(img/img_2.jpg) 50% 0 no-repeat fixed;
+      margin: 0;
+      height: 1200px;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+}
+section h1{
+      color: whitesmoke;
+      width: 400px;
+      font-size: 35px;
+      margin-bottom: 14px;
+}
+section p{
+      color: whitesmoke;
+      width: 300px;
+}
+section article{
+      position: absolute;
+      top: 240px;
+      right: 40px;
+      width: 500px;
+      z-index: 4;
+}
+section article.two{
+      position: absolute;
+      top:240px;
+      left: 40px;
+      width: 500px;
+      z-index: 4;
+
+}
+.parallax-item{
+      position: absolute;
+      z-index: 5;
+      top: 40px;
+      left: 400px;
+}
+section{
+      position: relative;
+      width: 100% !important;
+      min-width: 1000px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
