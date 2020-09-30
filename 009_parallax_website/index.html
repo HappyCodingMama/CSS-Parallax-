@@ -3,14 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Parallax Effect</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="layer-container">
-      <div class="bg-tree layer"></div>
+      <div class="bg-tree layer lax" data-lax-translate-y="0 1, 400 -100"></div>
       <h1 class="parallax-text">Parallax</h1>
-      <div class="front-tree layer"></div>
+      <div
+        class="front-tree layer lax"
+        data-lax-translate-y="0 1, 400 -260"
+      ></div>
+      <div class="line lax" data-lax-opacity="0 1, 100 0"></div>
     </div>
+    <nav>
+      <a href="#" class="logo">GTInternet</a>
+      <button>sign in</button>
+    </nav>
+    <div class="categories-container lax" data-lax-translate-y="0 0, 400 -300">
+      <div class="header">
+        <h4>Top Parallax Effect</h4>
+        <h1>Gain the new skills</h1>
+      </div>
+      <div class="product-container">
+        <div class="box-1">
+          <p>Architecture</p>
+        </div>
+        <div class="box-2">
+          <p>Nature</p>
+        </div>
+        <div class="box-3">
+          <p>Landscape</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="lax.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
